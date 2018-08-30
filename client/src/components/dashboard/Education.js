@@ -12,7 +12,7 @@ class Education extends Component {
   render() {
     const education = this.props.education.map(edu => {
       return (
-        <tr key={edu.id}>
+        <tr key={edu._id}>
           <td>{edu.school}</td>
           <td>{edu.degree}</td>
           <td>
